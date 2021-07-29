@@ -219,9 +219,7 @@ function display_all_deals(){
                                 )
         )
     );
-    echo "<script>jQuery( function() {
-  jQuery('#requestFilter').val('".$_GET['sort']."');
-})</script>";
+    
 
     $response='<div class="row">
           <div class="col-md-9">    

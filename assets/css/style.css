@@ -1,7 +1,47 @@
-.deal-card{
-	padding: 10px;
+h1,h2,h3,h4,h5,h6{
+	margin: 0!important;
+	padding: 0!important;
 }
 
-.company-logo{
-	width: 100%;
+.deal-card{
+	padding: 10px;
+    border: 1px solid #ececec!important;
+    border-radius: 5px !important;
+    box-shadow: 0px 0px 1px -1px rgb(0 0 0 / 75%);
+    -webkit-box-shadow: 0px 0px 1px -1px rgb(0 0 0 / 75%);
+    -moz-box-shadow: -1px 0px 5px -1px rgba(0,0,0,0.75);
+}
+
+.deal-card .col-md-3 {
+    width: 50px;
+    max-width: 50px;
+    padding: 0;
+    margin-left: 15px;
+}
+
+.company-logo {
+    width: auto;
+    max-height: 60px;
+}
+
+.deal-card p {
+    margin: 0px;
+	margin-bottom: 0!important;
+}
+
+.entry hr {
+    border: 0;
+    background: #e5e5e5!important;
+    height: 1px!important;
+    width: 100%!important;
+    max-width: 100%!important;
+    margin: 10px auto!important;
+}
+.deal-card h2, .deal-card h3 {
+	color: #3ba0f9;
+    font-size: 21px!important;
+    font-weight: 500!important
+}
+.deal-card p {
+    font-size: 17px!important;
 }

@@ -17,3 +17,12 @@ jQuery('#requestFilter').on('change', function() {
   window.location=url;
 });
 
+
+jQuery( function() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const myParam = urlParams.get('sort');
+  console.log('myParam',myParam);
+  if (myParam) {
+    jQuery('#requestFilter').val(myParam);
+  }
+});
